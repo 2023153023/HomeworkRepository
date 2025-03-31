@@ -3,13 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <title>My Favorite Movies</title>
-    <style>
-        body { font-family: Arial, sans-serif; }
-        h1 { color: black; text-align: center; }
-        table { width: 80%; margin: auto;   border-spacing: 2px; border-collapse: collapse; }
-        th, td { padding: 10px; text-align: center;  border: 3px double black; }
-        caption { font-weight: bold; margin-bottom: 10px; }
-    </style>
 </head>
 <body>
     <h1>안녕하세요 조혜민입니다.</h1>
@@ -19,35 +12,39 @@
         <li><a href="https://www.netflix.com/">Netflix</a></li>
     </ul>
 
-    <table>
-        <caption>표 1. Top3 영화</caption>
-        <tr>
-            <th rowspan="2">순위</th>
-            <th colspan="3">영화 정보</th>
-        </tr>
-        <tr>
-            <th>제목</th>
-            <th>포스터</th>
-            <th>명대사</th>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>Good Will Hunting</td>
-            <td><img src="good_will_hunting.jpg" alt="Good Will Hunting Poster" width="150" height="200"></td>
-            <td>"Some people can never believe in themselves, until someone believes in them."</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>Inception</td>
-            <td><img src="inception.jpg" alt="Inception Poster" width="150" height="200"></td>
-            <td>"Your mind is the scene of the crime."</td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>Whiplash</td>
-            <td><img src="whiplash.jpg" alt="Whiplash Poster" width="150" height="200"></td>
-            <td>"The road to greatness can take you to the edge."</td>
-        </tr>
+    <table border="1">
+        <caption><strong>표 1. Top3 영화</strong></caption>
+        <thead>
+            <tr>
+                <th rowspan="2">순위</th>
+                <th colspan="3">영화 정보</th>
+            </tr>
+            <tr>
+                <th>제목</th>
+                <th>포스터</th>
+                <th>명대사</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Good Will Hunting</td>
+                <td><img src="good_will_hunting.jpg" alt="Good Will Hunting Poster" width="150" height="200"></td>
+                <td>"Some people can never believe in themselves, until someone believes in them."</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Inception</td>
+                <td><img src="inception.jpg" alt="Inception Poster" width="150" height="200"></td>
+                <td>"Your mind is the scene of the crime."</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Whiplash</td>
+                <td><img src="whiplash.jpg" alt="Whiplash Poster" width="150" height="200"></td>
+                <td>"The road to greatness can take you to the edge."</td>
+            </tr>
+        </tbody>
     </table>
 
 </body>
